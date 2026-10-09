@@ -21,5 +21,6 @@ body {
 }
 ```
 
-The webfont is for personal, noncommercial use. Tsanger JinKai 04's terms do
-not permit commercial use.
+Alegreya's SIL Open Font License 1.1 text is included in `OFL-Alegreya.txt`.
+The merged webfont family is for personal, noncommercial use under Tsanger
+JinKai 04's terms; commercial use is not permitted.

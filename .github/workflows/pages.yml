@@ -6,6 +6,7 @@ on:
     paths:
       - ".github/workflows/pages.yml"
       - "JinGleyaSerif.css"
+      - "OFL-Alegreya.txt"
       - "*.woff2"
       - "index.html"
   workflow_dispatch:
@@ -36,7 +37,7 @@ jobs:
       - name: Stage webfonts and preview
         run: |
           mkdir -p _site
-          cp JinGleyaSerif.css JinGleyaSerif-*.woff2 index.html _site/
+          cp JinGleyaSerif.css JinGleyaSerif-*.woff2 index.html OFL-Alegreya.txt _site/
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v4
